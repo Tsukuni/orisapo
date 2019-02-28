@@ -1,11 +1,17 @@
 footer {
-  margin-top: 30px;
   height: 200px;
-  background-color: white;
+  background-color:#2D2D2D;
+  color: white;
 }
 
 body {
   font-family: "M PLUS 1p";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
 header {
@@ -48,4 +54,8 @@ header .menu {
 
 .font-bold {
   font-weight: bold;
+}
+
+.under-line {
+  border-bottom: solid 4px #F0BC08;
 }
