@@ -1,0 +1,51 @@
+footer {
+  margin-top: 30px;
+  height: 200px;
+  background-color: white;
+}
+
+body {
+  font-family: "M PLUS 1p";
+}
+
+header {
+  width: 100vw;
+  height: 40px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 10px;
+  z-index: 99;
+}
+
+header .menu {
+  position: absolute;
+  right: 20px;
+}
+
+.menu-list {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: white;
+  opacity: 0.9;
+  top:0px;
+  z-index:100;
+}
+
+.menu-list li {
+  font-size: 30px;
+  width:300px;
+}
+
+.middle-button {
+  width: 300px;
+}
+
+.center-btn {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
