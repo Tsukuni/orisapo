@@ -37,11 +37,28 @@ header .menu {
   opacity: 0.9;
   top:0px;
   z-index:100;
+  
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.menu-list ul {
+  margin-top: 200px;
 }
 
 .menu-list li {
   font-size: 30px;
-  width:300px;
+  width:100%;
+  list-style: none;
+  margin: 20px;
+}
+
+.menu-list .menu-close {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .middle-button {
@@ -58,6 +75,10 @@ header .menu {
 
 .under-line {
   border-bottom: solid 4px #F0BC08;
+}
+
+.side-line {
+  border-left: solid 4px #F0BC08;
 }
 
 .top-image {
